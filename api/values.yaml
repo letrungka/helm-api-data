@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: gitlab.velacorp.vn:4567/40ftcloud/api/nginx-php-fpm:10977-948239ede3a6fdf2f87544fc8cbb762671c4125b
-  tag: latest
+  repository: gitlab.velacorp.vn:4567/40ftcloud/api/nginx-php-fpm
+  tag: 10977-948239ede3a6fdf2f87544fc8cbb762671c4125b
   pullPolicy: IfNotPresent
 
 imagePullSecrets: [{"name": "gitlab-registry"}]
